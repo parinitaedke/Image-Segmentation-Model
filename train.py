@@ -46,8 +46,6 @@ def train_fn(loader, model, optimizer, loss_fn, scaler):
         loop.set_postfix(loss=loss.item())
 
 
-
-
 def main():
     train_transform = A.Compose(
         [

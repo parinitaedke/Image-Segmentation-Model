@@ -13,7 +13,6 @@ class CarvanaDataset(Dataset):
         # Lists all the file in the folder
         self.images = os.listdir(image_dir)
 
-
     def __len__(self):
         return len(self.images)
 
